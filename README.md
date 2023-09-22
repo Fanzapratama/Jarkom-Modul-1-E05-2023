@@ -39,4 +39,9 @@ Setelah menggunakan filter, kami dapat menemukan 21 paket yang menggunakan proto
 
 FLAG: Jarkom2023{4nalyz3_is_5711_BkQyFmOhBkQ_gr3at}
 
-4. 
+4. Berapa nilai checksum yang didapat dari header pada paket nomor 130? nc 10.21.78.111 13591
+   Solving: Untuk mengambil nilai checksum dari paket nomor 130, langkah pertama adalah menemukan paket nomor 130 dalam daftar, kemudian periksa bagian checksum pada paket tersebut, seperti paket berikut:
+
+![soal]()
+
+
