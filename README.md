@@ -7,4 +7,5 @@ Karena clue yang diberikan oleh soal adalah aktivitas yang terjadi pada protokol
 Setelah itu, saya mencari sequence number (raw) dan menemukan bahwa itu salah. Setelah itu, saya melanjutkan pencarian saya dan menemukan paket berikut:
 ![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-21%20184047.png)
 ![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-21%20185033.png)
+![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-21%20184807.png)
 ![soal]()
