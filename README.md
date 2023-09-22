@@ -70,13 +70,15 @@ FLAG: Jarkom2023{ch3cksum_is_u5eful_0xi61x}
 
 Setelah berhasil mendapatkan kata sandi, file zip akan terbuka, dan di dalamnya terdapat informasi tentang perintah "nc 10.21.78.111 11111". Selanjutnya, kita akan mendapatkan sebuah pertanyaan yang harus dijawab dengan menggunakan Wireshark, yaitu mencari berapa banyak port, port SMTP, dan alamat IP yang terkait.
 
-![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-21%20173346.png)
+![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-21%20175542.png)
 
-![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-21%20173408.png)
+![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-21%20173625.png)
 
-![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-21%20173438.png)
+![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-21%20174133.png)
 
-![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-21%20173537.png)
+![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-21%20175522.png)
+
+FLAG: Jarkom2023{k0w4lski_5826_hjFvBEliBRR_4nalys1s}
 
 6. ncat 10.21.78.111 6666
    Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT bersama. suatu malam, terjadi sebuah hal yang tak     terdUga. ketika udin mereka membuka game    tersebut, laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan "server SOURCE ADDRESS 7812 is invalid". ketika ditelusuri di google, hasil pencarian         hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan    slamet untuk menemukan solusi kode error tersebut.
