@@ -13,4 +13,5 @@ Setelah itu, saya mencari sequence number (raw) dan menemukan bahwa itu salah. S
    Solving : Masuk ke dalam capture packet dan, mengingat bahwa soal memerlukan informasi tentang server, lanjutkan dengan menganalisis protokol HTTP dari file pcap. Ini karena server biasanya menggunakan protokol HTTP.
 ![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-22%20132539.png)
 Saya menggunakan keyword "HTTP" untuk melakukan filter pada Wireshark. Awalnya, saya merasa bingung dan menjawab "HTTP," tetapi setelah memeriksa dan menganalisis lebih lanjut, akhirnya saya menemukan informasi yang diperlukan dalam bagian "follow HTTP Stream."
+![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/2.1.png)
 ![soal]()
