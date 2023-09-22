@@ -3,4 +3,6 @@
    Solving: Masuk ke dalam netcat dan perhatikan soal yang diinginkan! Selanjutnya, analisis dilakukan melalui file packet capture yang diberikan.
 ![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-22%20132011.png)
 Karena clue yang diberikan oleh soal adalah aktivitas yang terjadi pada protokol FTP, saya menggunakan keyword "FTP" untuk melakukan filter pada Wireshark. Setelah itu, saya mencari paket yang diduga merupakan aktivitas berikut:
+![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-22%20144709.png)
+Setelah itu, saya mencari sequence number (raw) dan menemukan bahwa itu salah. Setelah itu, saya melanjutkan pencarian saya dan menemukan paket berikut:
 ![soal]()
