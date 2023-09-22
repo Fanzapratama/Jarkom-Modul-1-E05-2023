@@ -52,14 +52,23 @@ Setelah menggunakan filter, kami dapat menemukan 21 paket yang menggunakan proto
 5.	Elshe menemukan suatu file packet capture yang menarik. Bantulah elshe untuk menganalisis file packet capture tersebut.
    Solving: Dalam soal ini, ada sebuah file zip yang terkunci. Untuk membukanya, langkah pertama adalah mencari kata sandi yang terdapat dalam Wireshark. Setelah itu, dekode kata sandi tersebut menggunakan metode Base64, seperti contoh berikut.
 
-![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-22%20125111.png)
+![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-21%20173346.png)
 
-![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-21%20172730.png)
+![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-21%20173408.png)
 
-![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/4.png)
+![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-21%20173438.png)
+
+![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-21%20173537.png)
 
 Setelah berhasil mendapatkan kata sandi, file zip akan terbuka, dan di dalamnya terdapat informasi tentang perintah "nc 10.21.78.111 11111". Selanjutnya, kita akan mendapatkan sebuah pertanyaan yang harus dijawab dengan menggunakan Wireshark, yaitu mencari berapa banyak port, port SMTP, dan alamat IP yang terkait.
 
+![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-21%20173346.png)
+
+![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-21%20173408.png)
+
+![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-21%20173438.png)
+
+![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-21%20173537.png)
 
 
 
