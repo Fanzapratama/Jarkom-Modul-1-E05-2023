@@ -15,4 +15,8 @@ Setelah itu, saya mencari sequence number (raw) dan menemukan bahwa itu salah. S
 Saya menggunakan keyword "HTTP" untuk melakukan filter pada Wireshark. Awalnya, saya merasa bingung dan menjawab "HTTP," tetapi setelah memeriksa dan menganalisis lebih lanjut, akhirnya saya menemukan informasi yang diperlukan dalam bagian "follow HTTP Stream."
 ![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/2.1.png)
 ![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/2.2.png)
+3.	Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal berikut: nc 10.21.78.111 13590
+   Solving: Berapa banyak paket yang tercapture dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702? Saya menggunakan keyword "(ip.src == 239.255.255.250 || ip.dst == 239.255.255.250) && 
+   (udp.port == 3702 || tcp.port == 3702) " untuk melakukan filter pada Wireshark. Sehingga berhasil menemukan hasil ini.
+![soal]()
 
