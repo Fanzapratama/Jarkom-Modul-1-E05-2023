@@ -2,16 +2,21 @@
 1. User melakukan berbagai aktivitas dengan menggunakan protokol FTP. nc 10.21.78.111 12345
 
    Solving: Masuk ke dalam netcat dan perhatikan soal yang diinginkan! Selanjutnya, analisis dilakukan melalui file packet capture yang diberikan.
+   
 ![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-22%20132011.png)
 
 Karena clue yang diberikan oleh soal adalah aktivitas yang terjadi pada protokol FTP, saya menggunakan keyword "FTP" untuk melakukan filter pada Wireshark. Setelah itu, saya mencari paket yang diduga merupakan aktivitas berikut:
+
 ![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-22%20144709.png)
 
 Setelah itu, saya mencari sequence number (raw) dan menemukan bahwa itu salah. Setelah itu, saya melanjutkan pencarian saya dan menemukan paket berikut:
 
 ![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-21%20184047.png)
+
 ![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-21%20185033.png)
+
 ![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-21%20184807.png)
+
 ![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-21%20184818.png)
 
 FLAG:	Jarkom2023{y0u_r_g00d_4t_4dr3ssing_BxKoMxD44474065}
@@ -38,6 +43,7 @@ FLAG: Jarkom2023{9unic0rn_1s_8B0YW3w304dxCxp_c00l}
 
 Setelah menggunakan filter, kami dapat menemukan 21 paket yang menggunakan protokol UDP.
 
+FLAG: Jarkom2023{4nalyz3_is_5711_BkQyFmOhBkQ_gr3at}
 
 4. Berapa nilai checksum yang didapat dari header pada paket nomor 130? nc 10.21.78.111 13591
 
@@ -48,6 +54,8 @@ Setelah menggunakan filter, kami dapat menemukan 21 paket yang menggunakan proto
 ![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-21%20172730.png)
 
 ![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/4.png)
+
+FLAG: Jarkom2023{ch3cksum_is_u5eful_0xi61x}
 
 5.	Elshe menemukan suatu file packet capture yang menarik. Bantulah elshe untuk menganalisis file packet capture tersebut.
    Solving: Dalam soal ini, ada sebuah file zip yang terkunci. Untuk membukanya, langkah pertama adalah mencari kata sandi yang terdapat dalam Wireshark. Setelah itu, dekode kata sandi tersebut menggunakan metode Base64, seperti contoh berikut.
