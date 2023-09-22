@@ -36,6 +36,15 @@ FLAG: Jarkom2023{9unic0rn_1s_8B0YW3w304dxCxp_c00l}
 Setelah menggunakan filter, kami dapat menemukan 21 paket yang menggunakan protokol UDP.
 
 
+4. Berapa nilai checksum yang didapat dari header pada paket nomor 130? nc 10.21.78.111 13591
+   Solving: Untuk mengambil nilai checksum dari paket nomor 130, langkah pertama adalah menemukan paket nomor 130 dalam daftar, kemudian periksa bagian checksum pada paket tersebut, seperti paket berikut:
+
+![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-22%20125111.png)
+
+![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-21%20172730.png)
+
+![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/4.png)
+
 
 
 
@@ -82,17 +91,4 @@ Setelah menggunakan filter, kami dapat menemukan 21 paket yang menggunakan proto
     Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet!
     ![soal](https://github.com/stevanza/LapresJarkom/blob/main/WhatsApp%20Image%202023-09-22%20at%2009.44.52.jpeg)
     ![soal1](https://github.com/stevanza/LapresJarkom/blob/main/WhatsApp%20Image%202023-09-22%20at%2009.44.39.jpeg)
-![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-21%20171232.png)
-
-FLAG: Jarkom2023{4nalyz3_is_5711_BkQyFmOhBkQ_gr3at}
-
-4. Berapa nilai checksum yang didapat dari header pada paket nomor 130? nc 10.21.78.111 13591
-   Solving: Untuk mengambil nilai checksum dari paket nomor 130, langkah pertama adalah menemukan paket nomor 130 dalam daftar, kemudian periksa bagian checksum pada paket tersebut, seperti paket berikut:
-
-![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-22%20125111.png)
-
-![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-21%20172730.png)
-
-![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/4.png)
-
 
