@@ -9,3 +9,5 @@ Setelah itu, saya mencari sequence number (raw) dan menemukan bahwa itu salah. S
 ![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-21%20185033.png)
 ![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-21%20184807.png)
 ![soal](https://github.com/Fanzapratama/Lapres-jarkom/blob/main/Screenshot%202023-09-21%20184818.png)
+2. Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer! nc 10.21.78.111 13579
+   Solving : Masuk ke dalam capture packet dan, mengingat bahwa soal memerlukan informasi tentang server, lanjutkan dengan menganalisis protokol HTTP dari file pcap. Ini karena server biasanya menggunakan protokol HTTP.
